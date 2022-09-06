@@ -1,0 +1,1 @@
+export const BASE_URL_CEP = "viacep.com.br/ws/01001000/json"
