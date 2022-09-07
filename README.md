@@ -6,9 +6,9 @@
 
 <!-- PROJECT SOBRE -->
 <h2 id="sobre">:notebook: Sobre </h2>
-<p align="justify">O objetivo desse projeto era criar um site onde o usuário poderia fazer cadastro.
+<p align="justify">O objetivo desse projeto era criar um site onde o usuário poderia fazer cadastro e editar algumas informações.
 Clone o repositório e após abrir o projeto, use o comando npm install e logo após o npm start para o projeto ficar online.
-No projeto tem uma API que está online e pronta para testes
+No projeto tem uma API que está online e pronta para testes.
 </p>
 
 <!-- PROJECT SITE -->
@@ -23,7 +23,6 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 
 <p>🔗 <a href="https://pt-br.reactjs.org/" target="_blank"> ReactJS </a> - O ReactJS é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário. Ele permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”. </p>
 <p>🔗 <a href="https://styled-components.com/" target="_blank"> Styled-Components <a/> - Styled-components é uma biblioteca para React e React Native que permite que você use estilos ao nível de componente na sua aplicação. Eles são escritos em uma mistura de JavaScript com CSS.</p>
-<p>🔗 <a href="https://mui.com/pt/" target="_blank"> Material-UI </a> - O Material-UI fornece um componente opcional CssBaseline. Ele corrige algumas inconsistências nos navegadores e dispositivos, ao mesmo tempo em que fornece redefinições ligeiramente mais opinativas para elementos HTML comuns.</p>
 <p>🔗 <a href="https://www.npmjs.com/package/axios" target="_blank"> React Axios </a> - Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quanto no Node. js ou qualquer serviço de API.</p>
 <p>🔗 <a href="https://reactrouter.com/web/guides/quick-start" target="_blank"> React-router-dom </a> - O React Router é uma lib completa para controle de rotas que permite que você consiga configurar as rotas utilizando o formato JSX e também disponibiliza uma API para você configurar diretamente via Javascript.</p>
 <p>🔗 <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces" target="_blank"> API </a> - API é um conjunto de definições e protocolos usado no desenvolvimento e na integração de software de aplicações. API é um acrônimo em inglês que significa interface de programação de aplicações.</p>
