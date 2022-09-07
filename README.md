@@ -1,71 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+<!-- PROJECT TITLE -->
+<h1 align='center'id="top"> :rocket: == Site de Cadastro == :rocket: </h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT SOBRE -->
+<h2 id="sobre">:notebook: Sobre </h2>
+<p align="justify">O objetivo desse projeto era criar um site onde o usuário poderia fazer cadastro e editar algumas informações.
+Clone o repositório e após abrir o projeto, use o comando npm install e logo após o npm start para o projeto ficar online.
+No projeto tem uma API que está online e pronta para testes.
+Abaixo tem o Link do site já Onlione para testes
 
-### `npm start`
+Além disso, foi usando nesse projeto a api do via cep. Nela é possível validar o cep digitada e auto preencher com as informações que precisa, por exemplo, cidade ou bairro.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Página de Cadastro: após o usuário preencher todos os campos, ele valida o cadastro e com isso salvar o token, levando o usuário para página de feed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Página de Login: Após o usuário preencher as credenciais, caso esteja algo errada, será avisando através de um alert, caso esteja tudo certo, será salvo o token desse usuário também.
 
-### `npm test`
+Página de Feed: Nessa página é mostrado todos os dados do usuário e nela também possui um botão que ele pode editar o endereço caso queira.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+É possível também fazer Logout. Quando é clicando no botão de Logout o token é removido e o usuário volta para página de Login.
 
-### `npm run build`
+É possível fazer Login com as credenciais abaixo ou se cadastrando no próprio site: </br>
+CPF: 00000000000,
+Placa: ABC123
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- PROJECT SITE -->
+<h2 id="site">:earth_americas: Link do site </h2>
+<p>🔗 <a href="https://third-measure.surge.sh/" target="_blank"> Cadastro </a>  </p>
+<!-- <a href="https://third-measure.surge.sh/" onclick="return ! window.open(this.href);"> Open in a new window</a> -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- PROJECT TECHNOLOGIES -->
+<h2 id="tecnologias"> 🛠 Tecnologias </h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Abaixo segue o que foi utilizado na criação deste projeto:
 
-### `npm run eject`
+<p>🔗 <a href="https://pt-br.reactjs.org/" target="_blank"> ReactJS </a> - O ReactJS é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário. Ele permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”. </p>
+<p>🔗 <a href="https://styled-components.com/" target="_blank"> Styled-Components <a/> - Styled-components é uma biblioteca para React e React Native que permite que você use estilos ao nível de componente na sua aplicação. Eles são escritos em uma mistura de JavaScript com CSS.</p>
+<p>🔗 <a href="https://www.npmjs.com/package/axios" target="_blank"> React Axios </a> - Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quanto no Node. js ou qualquer serviço de API.</p>
+<p>🔗 <a href="https://reactrouter.com/web/guides/quick-start" target="_blank"> React-router-dom </a> - O React Router é uma lib completa para controle de rotas que permite que você consiga configurar as rotas utilizando o formato JSX e também disponibiliza uma API para você configurar diretamente via Javascript.</p>
+<p>🔗 <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces" target="_blank"> API </a> - API é um conjunto de definições e protocolos usado no desenvolvimento e na integração de software de aplicações. API é um acrônimo em inglês que significa interface de programação de aplicações.</p>
+<p>🔗 <a href="https://www.totvs.com/blog/negocios/kanban/" target="_blank"> Metodologias Ágeis - Kanban </a> -Kanban é um sistema visual de gestão de trabalho, que busca conduzir cada tarefa por um fluxo predefinido de trabalho.</p>
+<!-- <p>🔗 <a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-2.0.pdf" target="_blank"> Metodologias Ágeis - Scrum </a> - Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor através de soluções adaptativas para problemas complexos.</p> -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- PROJECT IT WORKS-->
+<h2 id="funciona">:heavy_check_mark: O que funciona</h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Telas
+- [x] Tela Cadastro Usuário;
+- [x] Tela Login Usuário;
+- [x] Tela Feed Usuário;
+- [x] Tela Editar Usuário;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Integração com API
+- [x] Post Cadastro;
+- [x] Post Login;
+- [x] Get Usuário;
+- [x] Put Usuário;
+- [x] Get Usuário ID;
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Site-ProAutoTeste
