@@ -28,8 +28,8 @@ Placa: ABC123
 
 <!-- PROJECT SITE -->
 <h2 id="site">:earth_americas: Link do site </h2>
-<p>🔗 <a href="https://third-measure.surge.sh/" target="_blank"> Cadastro </a>  </p>
-<!-- <a href="https://third-measure.surge.sh/" onclick="return ! window.open(this.href);"> Open in a new window</a> -->
+<p>🔗 <a href="https://heavy-office.surge.sh/" target="_blank"> Cadastro </a>  </p>
+<!-- <a href="https://heavy-office.surge.sh/" onclick="return ! window.open(this.href);"> Open in a new window</a> -->
 
 <!-- PROJECT TECHNOLOGIES -->
 <h2 id="tecnologias"> 🛠 Tecnologias </h2>
