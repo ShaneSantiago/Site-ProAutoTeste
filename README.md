@@ -21,7 +21,7 @@ Página de Feed: Nessa página é mostrado todos os dados do usuário e nela tam
 
 É possível também fazer Logout. Quando é clicando no botão de Logout o token é removido e o usuário volta para página de Login.
 
-É possível fazer Login com as credenciais abaixo ou se cadastrando no próprio site:
+É possível fazer Login com as credenciais abaixo ou se cadastrando no próprio site: </br>
 CPF: 00000000000,
 Placa: ABC123
 </p>
