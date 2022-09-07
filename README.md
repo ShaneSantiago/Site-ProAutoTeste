@@ -9,6 +9,14 @@
 <p align="justify">O objetivo desse projeto era criar um site onde o usuário poderia fazer cadastro e editar algumas informações.
 Clone o repositório e após abrir o projeto, use o comando npm install e logo após o npm start para o projeto ficar online.
 No projeto tem uma API que está online e pronta para testes.
+
+Além disso, foi usando nesse projeto a api do via cep. Nela é possível validar o cep digitada e auto preencher com as informações que precisa, por exemplo, cidade ou bairro.
+
+Página de Cadastro: após o usuário preencher todos os campos, ele valida o cadastro e com isso salvar o token, levando o usuário para página de feed.
+
+Página de Login: Após o usuário preencher as credenciais, caso esteja algo errada, será avisando através de um alert, caso esteja tudo certo, será salvo o token desse usuário também.
+
+Página de Feed: Nessa página é mostrado todos os dados do usuário e nela também possui um botão que ele pode editar o endereço caso queira.
 </p>
 
 <!-- PROJECT SITE -->
