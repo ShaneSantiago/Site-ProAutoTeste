@@ -18,6 +18,12 @@ Página de Cadastro: após o usuário preencher todos os campos, ele valida o ca
 Página de Login: Após o usuário preencher as credenciais, caso esteja algo errada, será avisando através de um alert, caso esteja tudo certo, será salvo o token desse usuário também.
 
 Página de Feed: Nessa página é mostrado todos os dados do usuário e nela também possui um botão que ele pode editar o endereço caso queira.
+
+É possível também fazer Logout. Quando é clicando no botão de Logout o token é removido e o usuário volta para página de Login.
+
+É possível fazer Login com as credenciais abaixo ou se cadastrando no próprio site:
+CPF: 00000000000,
+Placa: ABC123
 </p>
 
 <!-- PROJECT SITE -->
