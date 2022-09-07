@@ -13,8 +13,8 @@ No projeto tem uma API que está online e pronta para testes
 
 <!-- PROJECT SITE -->
 <h2 id="site">:earth_americas: Link do site </h2>
-<p>🔗 <a href="https://lewd-seashore.surge.sh/" target="_blank"> Cadastro </a>  </p>
-<!-- <a href="https://lewd-seashore.surge.sh/" onclick="return ! window.open(this.href);"> Open in a new window</a> -->
+<p>🔗 <a href="third-measure.surge.sh/" target="_blank"> Cadastro </a>  </p>
+<!-- <a href="third-measure.surge.sh/" onclick="return ! window.open(this.href);"> Open in a new window</a> -->
 
 <!-- PROJECT TECHNOLOGIES -->
 <h2 id="tecnologias"> 🛠 Tecnologias </h2>
