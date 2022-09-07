@@ -1,8 +1,7 @@
 import React from "react"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Edit from "../Pages/EditProfile/EditProfile"
 import Footer from "../Footer/Footer"
-import Header from "../Header/Header"
 import Cadastro from "../Pages/Cadastro/Cadastro"
 import Feed from "../Pages/Feed/Feed"
 import Home from "../Pages/Home"
@@ -13,10 +12,10 @@ const Routers = ({rightButtonText, setRightButtonText}) => {
     return(
         <div>
             <Routes>
-                <Route exact path="/" element={<Home />}>
+                <Route exact path="/" element={<Home rightButtonText={rightButtonText} setRightButtonText={setRightButtonText}/>}>
                 </Route>
 
-                <Route exact path="/login" element={<Login rightButtonText={rightButtonText} setRightButtonText={setRightButtonText}/>}>
+                <Route exact path="/login" element={<Login/>}>
                 </Route>
 
                 <Route exact path="/cadastro" element={<Cadastro rightButtonText={rightButtonText} setRightButtonText={setRightButtonText}/>}>

@@ -30,18 +30,15 @@ const Login = ({rightButtonText, setRightButtonText}) => {
         login(setRightButtonText)
     }
 
-    const login = () => {
-
+    const login = (setRightButtonText) => {
         axios.post(`${BASE_URL}/login`, form)
         .then((res) => {
-            console.log(res.data)
             localStorage.setItem("token", res.data.access_token)
-            console.log(res.data.message)
             goToFeed()
             setRightButtonText("Logout")
         })
         .catch((erro) => {
-            console.log(erro)
+            alert("Credenciais inválidas")
         })
     }
     return(
@@ -67,10 +64,10 @@ const Login = ({rightButtonText, setRightButtonText}) => {
                 placeholder="Placa"
                 />
                 <div>
-                
+                <div className="container-btn">
             <button type="submit" className="btn-button" >LOGIN</button>
             <button onClick={goToSignup} className="btn-signup">CADASTRAR</button>
-           
+           </div>
             </div>
             </form>
             </div>

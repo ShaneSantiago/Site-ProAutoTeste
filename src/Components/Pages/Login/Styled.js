@@ -44,6 +44,13 @@ span{
     color: white;
 }
 }
+.container-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
 .btn-button{
     margin: 5px;
     padding: 8px;
@@ -53,7 +60,6 @@ span{
     border: none;
 }
 .btn-signup{
-    float: right;
     margin: 5px;
     padding: 8px;
     width: 100px;
@@ -75,8 +81,11 @@ span{
     .input{
         width: 280px;
     }
-    .btn-button{
-        margin-top: 28px;
-    }
+   .container-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+   }
+   
 }
 `;

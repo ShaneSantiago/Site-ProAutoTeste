@@ -2,7 +2,7 @@ import React from "react"
 import Login from "./Login/Login"
 import { ContainerHome, Form } from "./Styled"
 
-const Home = () => {
+const Home = ({rightButtonText, setRightButtonText}) => {
     return(
         <ContainerHome>
             <div className="main">
@@ -19,7 +19,7 @@ const Home = () => {
                 <button>Saiba mais</button>
                 
              </div>
-                <Login />
+                <Login rightButtonText={rightButtonText} setRightButtonText={setRightButtonText}/>
             </div>
         </ContainerHome>
     )
